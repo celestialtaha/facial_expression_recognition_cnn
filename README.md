@@ -34,3 +34,6 @@ opencv_traincascade -data haar2 -vec p.vec -bg bg.txt -numStages 20 -minHitRate 
 
 you can learn more about training parameters here : http://note.sonots.com/SciSoftware/haartraining/document.html
 ## 2. Facial expression recognition CNN
+for facial expression recognition I used MiniXception architecture which after 100 epochs achieved 65% accuracy.compared to winner of the kaggle challenge in 2013 who achieved 71% its quite good i think.
+
+for more information about MiniXception refer to : https://arxiv.org/pdf/1710.07557.pdf
